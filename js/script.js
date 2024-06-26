@@ -15,5 +15,9 @@ btn.addEventListener('click', function () {
     if (discount != 0) {
         tipoBiglietto = "Biglietto Scontato"
     }
-    
+    document.getElementById('nomePasseggero').innerHTML = name;
+    document.getElementById('tipoBiglietto').innerHTML = tipoBiglietto;
+    document.getElementById('carrozza').innerHTML = Math.floor(Math.random() * 10 + 1);
+    document.getElementById('codiceCP').innerHTML = Math.floor(Math.random() * 90000 + 10000);
+    document.getElementById('costoBiglietto').innerHTML = priceDiscount.toFixed(2);
 });

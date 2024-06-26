@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100svw;
+    height: 100svh;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #calcola {
     position: absolute;
     right: 0;
