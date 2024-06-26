@@ -11,5 +11,9 @@ btn.addEventListener('click', function () {
     }
     const priceFull = km * 0.21
     const priceDiscount = priceFull - (priceFull * discount)
+    let tipoBiglietto = "Biglietto Standard"
+    if (discount != 0) {
+        tipoBiglietto = "Biglietto Scontato"
+    }
     
 });

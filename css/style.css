@@ -7,7 +7,7 @@
 #calcola {
     position: absolute;
     right: 0;
-    bottom: 1rem;
+    bottom: 0;
     background-color: green;
     color: white;
     padding: 2px;
