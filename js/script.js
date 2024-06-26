@@ -9,6 +9,7 @@ btn.addEventListener('click', function () {
     }else if (age === 'over65') {
         discount = 0.4
     }
-    
+    const priceFull = km * 0.21
+    const priceDiscount = priceFull - (priceFull * discount)
     
 });
