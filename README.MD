@@ -15,3 +15,9 @@ MILESTONE 2: Solo una volta che il milestone 1 sarà completo e funzionante allo
 Nota: Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
 Link repo live coding: https://github.com/fabriziom90/js-html-css.git
 Buon lavoro
+
+Creo nell'index una form per prendere i dati dall'utente.
+Creo nell'index un bottone per inviare i dati inseriti dall'utente.
+Recupero nel JS i dati inseriti dall'utente andandoli a mettere dentro le variabili
+Creo una variabile per calcolare il prezzo finale del biglietto
+Rimando nell'index i dati acquisiti per stilizzare il biglietto con le informazioni raccolte ed il prezzo generato
