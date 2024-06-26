@@ -8,16 +8,22 @@
     <title>js-biglietto-treno-form</title>
 </head>
 <body>
-    <form action="#">
-        <input type="text" id="nome">
-        <input type="number" id="km">
-        <select name="eta" id="eta">
-            <option value="minorenne">Minorenne</option>
-            <option value="maggiorenne">Maggiorenne</option>
-            <option value="over65">Over65</option>
-        </select>
-        <button type="submit" id="calcola"></button>
-    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <form action="#" class="position-relative">
+                    <input type="text" id="nome" class="w-100 mt-3" placeholder="Inserisci nome e cognome">
+                    <input type="number" id="km" class="w-100 mt-3" placeholder="Inserisci i km da percorrere">
+                    <select name="eta" id="eta" class="my-3 w-50">
+                        <option value="minorenne">Minorenne</option>
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="over65">Over65</option>
+                    </select>
+                    <button class="btn border border-2 border-black position-absolute" type="submit" id="calcola">Genera</button>
+                </form>
+            </div>
+        </div>
+    </div>
 
 
     <script src="./js/script.js" type="text/javascript"></script>

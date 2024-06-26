@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#calcola {
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+    background-color: green;
+    color: white;
+    padding: 2px;
+}
+
+#calcola:active {
+    color: black;
+    background-color: rgb(97, 126, 255);
+}
