@@ -9,42 +9,45 @@
 </head>
 <body>
     <div class="container">
-        <div class="row border border-black border-2">
+        <h3 class="text-center text-light border border-black border-2 bg-grey-90 m-0">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h3>
+        <div class="row border border-black border-2 bg-grey-90">
             <div class="col-12">
                 <form action="#" class="position-relative">
-                    <label for="nome" class="mt-2">Nome e Cognome</label>
+                    <label for="nome" class="mt-2 text-light">Nome e Cognome</label>
                     <input name="nome" type="text" id="nome" class="w-100" placeholder="Inserisci nome e cognome">
-                    <label for="km">Km da percorrere</label>
+                    <label for="km" class="text-light">Km da percorrere</label>
                     <input name="km" type="number" id="km" class="w-100" placeholder="Inserisci i km da percorrere">
-                    <label for="eta">Fascia d'età</label>
+                    <label for="eta" class="text-light">Fascia d'età</label>
                     <select name="eta" id="eta" class="mb-3 w-50 d-block">
                         <option value="minorenne">Minorenne</option>
                         <option value="maggiorenne">Maggiorenne</option>
                         <option value="over65">Over65</option>
                     </select>
-                    <button class="btn border border-2 border-black position-absolute" type="submit" id="calcola">Genera</button>
+                    <button class="btn border border-2 border-black position-absolute" type="button" id="calcola">Genera</button>
+                    <button class="btn border border-2 border-black position-absolute" type="button" id="annulla">Annulla</button>
                 </form>
             </div>
         </div>
-        <div class="row border border-black border-2 mt-5">
+        <h3 class="text-center text-light border border-black border-2 bg-grey-90 m-0 mt-5">IL TUO BIGLIETTO</h3>
+        <div class="row border border-black border-2 bg-grey-90">
             <div class="col-12 d-flex justify-content-between border border-black border-1">
-                <h4>NOME PASSEGGERO</h4>
-                <h4 id="nomePasseggero" class="text-primary"></h4>
+                <h4 class="text-light">NOME PASSEGGERO</h4>
+                <h4 id="nomePasseggero" class="text-light"></h4>
             </div>
             <div class="col-12 d-flex justify-content-between border border-black border-1">
-                <h3>Offerta</h3>
-                <h3 id="tipoBiglietto"></h3>
+                <h3 class="text-light">Offerta</h3>
+                <h3 id="tipoBiglietto" class="text-light"></h3>
             </div>
             <div class="col-12 d-flex justify-content-between border border-black border-1 ">
-                <h3>Carrozza</h3>
-                <h3 id="carrozza"></h3>
+                <h3 class="text-light">Carrozza</h3>
+                <h3 id="carrozza" class="text-light"></h3>
             </div>
             <div class="col-12 d-flex justify-content-between border border-black border-1">
-                <h3>Codice CP</h3>
-                <h3 id="codiceCP"></h3>
+                <h3 class="text-light">Codice CP</h3>
+                <h3 id="codiceCP" class="text-light"></h3>
             </div>
             <div class="col-12 d-flex justify-content-between border border-black border-1">
-                <h3>Costo biglietto</h3>
+                <h3 class="text-light">Costo biglietto</h3>
                 <h3 id="costoBiglietto" class="text-danger"></h3>
             </div>
         </div>
